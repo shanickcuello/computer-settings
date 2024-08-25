@@ -7,7 +7,24 @@ tput setaf 2; echo Make some coffee, this will take some time.
 sudo apt update && sudo apt upgrade
 
 # Software install
-sudo apt install tilix maltego metasploit-framework burpsuite wireshark aircrack-ng hydra nmap beef-xss nikto terminator tor snort synaptic chromium leafpad burpsuite
+sudo apt install \
+tilix \
+maltego \
+metasploit-framework \
+burpsuite \
+wireshark \
+aircrack-ng \
+hydra \
+nmap \
+beef-xss \
+nikto \
+terminator \
+tor \
+snort \
+synaptic \
+chromium \
+leafpad \
+burpsuite
 
 # Update nmap scripts
 sudo nmap --script-updatedb
