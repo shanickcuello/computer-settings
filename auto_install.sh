@@ -26,6 +26,7 @@ chromium \
 leafpad \
 burpsuite \
 pipx \
+smbmap
 
 # Pipx settings
 pipx ensurepath
