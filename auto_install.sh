@@ -25,7 +25,13 @@ synaptic \
 chromium \
 leafpad \
 burpsuite \
-pipx
+pipx \
+
+# Pipx settings
+pipx ensurepath
+
+# Python installs
+python3 -m pipx install impacket
 
 # Update nmap scripts
 sudo nmap --script-updatedb
@@ -35,4 +41,4 @@ sudo nmap --script-updatedb
 #chsh -s /usr/bin/fish
 
 #execute crontab -e and add
-#00 2 ,15,30 * * autoremove /home/*/automations/apt_autoremove.sh
+#00 2 ,15,30 * * autoremove /home/[USER NAME]/automations/apt_autoremove.sh
