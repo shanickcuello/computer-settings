@@ -37,9 +37,14 @@ python3 -m pipx install impacket
 # Update nmap scripts
 sudo nmap --script-updatedb
 
-# Manual steps
+#   Manual steps
 # install fish and then run
 #chsh -s /usr/bin/fish
 
 #execute crontab -e and add
 #00 2 ,15,30 * * autoremove /home/[USER NAME]/automations/apt_autoremove.sh
+
+# git installs
+#git clone https://github.com/cddmp/enum4linux-ng.git
+#cd enum4linux-ng
+#pip3 install -r requirements.txt
