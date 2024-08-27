@@ -24,7 +24,8 @@ snort \
 synaptic \
 chromium \
 leafpad \
-burpsuite
+burpsuite \
+pipx
 
 # Update nmap scripts
 sudo nmap --script-updatedb
