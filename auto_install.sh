@@ -28,6 +28,9 @@ burpsuite \
 pipx \
 smbmap
 
+# pip3 installs
+pip3 install autokey
+
 # Pipx settings
 pipx ensurepath
 
