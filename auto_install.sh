@@ -26,10 +26,8 @@ chromium \
 leafpad \
 burpsuite \
 pipx \
-smbmap
-
-# pip3 installs
-pip3 install autokey
+smbmap \
+autokey-gtk
 
 # Pipx settings
 pipx ensurepath
