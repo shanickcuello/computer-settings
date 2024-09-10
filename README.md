@@ -1,2 +1,3 @@
 # computer-settings
-My Rider, fish and tools settings for development
+My Rider, fish and tools settings for development and hacking
+
