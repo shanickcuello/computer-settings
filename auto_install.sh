@@ -27,7 +27,8 @@ leafpad \
 burpsuite \
 pipx \
 smbmap \
-autokey-gtk
+autokey-gtk \
+seclists
 
 # Pipx settings
 pipx ensurepath
@@ -46,6 +47,7 @@ sudo nmap --script-updatedb
 #00 2 ,15,30 * * autoremove /home/[USER NAME]/automations/apt_autoremove.sh
 
 # git installs
+# run ssh-keygen if needed
 #git clone https://github.com/cddmp/enum4linux-ng.git
 #cd enum4linux-ng
 #pip3 install -r requirements.txt
