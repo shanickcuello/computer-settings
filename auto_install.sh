@@ -28,7 +28,10 @@ burpsuite \
 pipx \
 smbmap \
 autokey-gtk \
-seclists
+seclists \
+apropos \
+xclip \
+exploitdb
 
 # Install O.D.A.T.
 sudo apt-get install libaio1 python3-dev alien -y
